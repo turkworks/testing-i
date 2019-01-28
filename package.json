@@ -1,0 +1,36 @@
+{
+  "name": "testing-i",
+  "version": "1.0.0",
+  "description": "In this project, you will demonstrate proficiency by writing unit tests and production code to satisfy the Minimum Viable Product described below.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turkworks/testing-i.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turkworks/testing-i/issues"
+  },
+  "homepage": "https://github.com/turkworks/testing-i#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "jest": "^24.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "knex": "^0.15.2",
+    "sqlite3": "^4.0.6"
+  }
+}
